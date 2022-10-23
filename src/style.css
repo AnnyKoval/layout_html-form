@@ -1,6 +1,6 @@
 /* styles go here */
-.input-class {
-  margin-top: 10px;
+.input-class:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .new-field {

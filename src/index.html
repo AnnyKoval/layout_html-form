@@ -15,7 +15,6 @@
     >
   </head>
   <body>
-    <h1>HTML Form</h1>
     <form
     action="https://mate-academy-form-lesson.herokuapp.com/create-application"
     method="post">
@@ -30,7 +29,7 @@
       name="surname"
       id="surname"
       autocomplete="off"
-      >
+            >
           </label>
         </div>
         <div class="input-class">
@@ -40,7 +39,7 @@
       name="name"
       id="name"
       autocomplete="off"
-      >
+            >
           </label>
         </div>
         <div class="input-class">
@@ -52,7 +51,7 @@
       max="100"
       placeholder="12"
       id="age"
-      >
+            >
           </label>
         </div>
         <div class="input-class">
@@ -61,7 +60,7 @@
       type="date"
       name="date-of-birth"
       id="date-of-birth"
-      >
+            >
           </label>
         </div>
         <div class="input-class">
@@ -70,7 +69,7 @@
       type="checkbox"
       name="checkbox"
       id="tems-and-conditions"
-      >
+          >
         </div>
       </fieldset>
       <fieldset class="new-field">
@@ -85,7 +84,7 @@
       placeholder="email@example.com"
       id="email"
       required
-      >
+          >
         </div>
         <div class="input-class">
           <label for="password">Password</label>
@@ -96,30 +95,27 @@
       minlength="7"
       maxlength="12"
       required
-      >
+          >
         </div>
       </fieldset>
       <fieldset class="new-field">
         <legend>
         An interesting fact about you!
         </legend>
-        <label for="animals">Do you love cats?</label>
-        <label>
-          <input
+        <div class="input-class">
+          <label for="animals">Do you love cats?
+            <input
       type="radio"
       name="yes"
       id="animals"
-      checked
-      >
+            >
         Yes
-        </label>
-        <label>
-          <input
+            <input
       type="radio"
       name="yes"
-      >
+            >
         No
-        </label>
+          </label>
         </div>
         <div class="input-class">
           <label for="color">What is your favorite color?</label>
@@ -127,7 +123,7 @@
       type="color"
       name="color"
       id="color"
-      >
+          >
         </div>
         <div class="input-class">
           <label for="bed-time">What time do you go to bed?</label>
@@ -135,15 +131,14 @@
       type="time"
       name="bed-time"
       id="bed-time"
-      >
+          >
         </div>
         <div class="input-class">
           <label for="car">What are your favorite brand of cars
             <select name="car" multiple>
-              <option selected disabled>Choose a brand</option>
               <option value="bmw">BMW</option>
-              <option value="toyota">Toyota</option>
-              <option value="audi">Audi</option>
+              <option value="toyota">Audi</option>
+              <option value="audi">Lada</option>
             </select>
           </label>
         </div>
@@ -153,7 +148,7 @@
       type="range"
       name="range"
       id="range"
-      >
+          >
         </div>
       </fieldset>
       <fieldset class="new-field">
